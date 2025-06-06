@@ -4,7 +4,7 @@
     "slug": "Orda_Customer",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/OrdaLogo.png",
+    "icon": "./assets/images/gptOrdaLogo.png",
     "scheme": "ordacustomer",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,10 +13,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/OrdaLogo.png",
+        "foregroundImage": "./assets/images/gptOrdaLogo.png",
         "backgroundColor": "#70CFAF"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.hephzibah108.Orda_Customer"
     },
     "web": {
       "bundler": "metro",
@@ -28,7 +29,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/icons/OrdaLogo.png",
+          "image": "./assets/images/gptOrdaLogo.png",
           "resizeMode": "cover",
           "backgroundColor": "#70CFAF",
           "enableFullScreen_legacy": true
@@ -36,15 +37,20 @@
       ],
       "expo-localization"
     ],
-    "expo-font": {
-      "fonts": [
-        "./assets/fonts/WinkySans-Light.ttf",
-        "./assets/fonts/WinkySans-Medium.ttf",
-        "./assets/fonts/WinkySans-Regular.ttf"
-      ]
-    },
-    "experiments": {
-      "typedRoutes": true
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d357de0f-170a-4392-a09c-41ca52ddc214"
+      }
+    }
+  },
+  "experiments": {
+    "typedRoutes": true
+  },
+  "extra": {
+    "router": {},
+    "eas": {
+      "projectId": "fdb7da35-500e-4b7c-b668-374b18b1b2af"
     }
   }
 }
