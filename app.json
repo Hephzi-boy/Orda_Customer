@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Orda_Customer",
+    "slug": "Orda_Customer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/OrdaLogo.png",
+    "scheme": "ordacustomer",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/OrdaLogo.png",
+        "backgroundColor": "#70CFAF"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icons/OrdaLogo.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#70CFAF",
+          "enableFullScreen_legacy": true
+        }
+      ],
+      "expo-localization"
+    ],
+    "expo-font": {
+      "fonts": [
+        "./assets/fonts/WinkySans-Light.ttf",
+        "./assets/fonts/WinkySans-Medium.ttf",
+        "./assets/fonts/WinkySans-Regular.ttf"
+      ]
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
