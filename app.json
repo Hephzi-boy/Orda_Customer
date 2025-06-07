@@ -30,9 +30,12 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/gptOrdaLogo.png",
-          "resizeMode": "cover",
+          "resizeMode": "contain",
           "backgroundColor": "#70CFAF",
-          "enableFullScreen_legacy": true
+          "enableFullScreen_legacy": true,
+          "hideStatusBar_legacy": true,
+          "hideHomeIndicator_legacy": true,
+          "hideExponentText": true
         }
       ],
       "expo-localization"
