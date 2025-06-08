@@ -49,3 +49,7 @@ Join our community of developers creating universal apps.
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 "# Orda_Customer" 
+
+### Video of Orda Customer Application
+- https://drive.google.com/file/d/1d0qwEmTdl7x7i7BJe37XUlCzGnARBRyZ/view?usp=drive_link
+- https://drive.google.com/file/d/1COV0wLWbOJXqKRDfH_9unEHHa-YyrD29/view?usp=drive_link
