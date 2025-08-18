@@ -45,15 +45,14 @@
       "eas": {
         "projectId": "d357de0f-170a-4392-a09c-41ca52ddc214"
       }
+    },
+    "runtimeVersion": "1.0.0",
+
+    "updates": {
+      "url": "https://u.expo.dev/d357de0f-170a-4392-a09c-41ca52ddc214"
     }
   },
   "experiments": {
     "typedRoutes": true
-  },
-  "extra": {
-    "router": {},
-    "eas": {
-      "projectId": "fdb7da35-500e-4b7c-b668-374b18b1b2af"
-    }
   }
 }
